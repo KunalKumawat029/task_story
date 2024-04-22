@@ -26,7 +26,6 @@ const Design2 = ({ story }) => {
         {activeTab === 'details' && (
           <div>
             <h2>Details</h2>
-            {/* Render other story details if needed */}
           </div>
         )}
         {activeTab === 'image' && story && (
